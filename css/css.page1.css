@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,200&family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Nunito Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:ital,wght@0,300;1,200&family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Anton', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: 'Nunito Sans', sans-serif;
+}
+
+/****** BLOCK 1 *******/
+.topGreenSegment{
+    background-color: rgb(0, 85, 0);
+    width: 100%;
+    height: 10px;
+}
+.block0 .findStore{
+    background-color: transparent;
+    color: rgb(0, 85, 0);
+    border: 1px solid rgb(0, 85, 0);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.block0 .findStore:hover{
+    background-color: rgb(0, 85, 0);
+    color: white;
+}
+/* Navigation bar links */
+.block0 .iconAndFindStore{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.block0 nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul li{
+    margin: 3%;
+}
+ul li .navList{
+    text-decoration: none;
+    color: rgb(0, 85, 0);
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.dropdown-container{
+    display: none;
+}
+
+/* Navigation bar links hovering */
+ul li .navList:hover{
+    color: rgb(0, 155, 0);
+    font-size: 1.4rem;
+}
+.dropdownList a:hover{
+    color: rgb(158, 151, 151);
+    font-size: 0.9rem;
+}
+li:hover .dropdown-container{
+    display: block;
+    position: absolute;
+    background-color: rgba(12, 12, 12, 0.878);
+    width: fit-content;
+}
+.dropdown-container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+.dropdown-container h4{
+    color: rgb(124, 122, 122);
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+ .dropdown-container .dropdownAlignment{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+nav .dropdownList{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+/********* BLOCK 1 *********/
+#topImg{
+    margin-bottom: -6px;
+}
+.block1Container{
+    /* background-image: url("wallpaperflare.com_wallpaper(1).jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; */
+    background-color: rgb(245 245 245);
+}
+.block1Container .Container{
+    text-align: left;
+    padding: 7rem;
+}
+.block1Container .Container .textDivInside{
+    width: 65%;
+    margin: auto;
+}
+.textDivInside h1{
+    font-size: 3.5rem;
+    font-family: 'Anton', sans-serif;
+}
+.textDivInside p{
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.textDivInside .learnMore{
+    
+    padding: 7px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: rgb(0, 85, 0);
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    border: 2px solid rgb(0, 85, 0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(133, 131, 131);
+}
+.textDivInside .learnMore:hover{
+    background-color: white;
+    color: rgb(0, 85, 0);
+    cursor: pointer;
+}
+.block1Container .Container .imgDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 6rem;
+    padding-bottom: 2rem;
+}
+.block1Container .Container .imgDiv img{
+    width: 11rem;
+    height: 11rem;
+    border: 7px solid rgb(0, 85, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 6px 6px 5px rgb(133, 131, 131);
+}
+
+
+/*********** BLOCK 2 ***********/
+/* .block2Container{
+    display: grid;
+    grid-template: auto auto auto auto auto auto / 50% 50%;
+}
+.textL1{
+    grid-column: 1/2;
+}
+.imgR1{
+    grid-column: 1/3;
+}
+.imgL1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+} */
+.block2Container{
+    display: flex;
+    flex-direction: row;
+    margin-top: -7px;
+}
+.block2Container div {
+    margin-bottom: -7px;
+}
+.LHS, .RHS{
+    width: 50%;
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.textL1, .textR1, .textL2{
+    height: 20%;
+}
+.block2texts{
+    margin: 4rem;
+}
+.block2texts div{
+    width: 30%;
+    height: 20px;
+    background-color: rgb(0, 85, 0);
+    color: rgb(0, 85, 0);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.block2Container .learnMore{
+    margin-top: 1.5rem;
+    padding: 7px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: white;
+    color: rgb(0, 85, 0);
+    font-size: 1rem;
+    font-weight: 800;
+    border: 1px solid rgb(0, 85, 0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(133, 131, 131);
+}
+.block2Container .learnMore:hover{
+    background-color: rgb(0, 85, 0);
+    color: white;
+    cursor: pointer;
+}
+
+/* LHS */
+.textL1 h1{
+    font-size: 4rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.textL2 h1{
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/* RHS */
+.textR1 h1{
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/* .textL2{
+    background-image: url("images/page1/block2/textL2backgroundImg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+.textL2 .block2texts{
+    margin: 15%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: transparent;
+}
+@media only screen and (max-width: 1300px) {
+    /* block 1 */
+    .block1 .imgDiv img{
+        margin: 1.5rem;
+    }
+
+    /* block2 */
+    .block2Container{
+        display: block;
+        width: 100%;
+    }
+    .LHS, .RHS{
+    width: auto;
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    }
+    .textL1, .textR1{
+        height: 600px;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+/*********** BLOCK3 ************/
+.block3{
+    margin-top: 12rem;
+    margin-bottom: 3rem;
+}
+.block3Container{
+    width: 55%;
+    margin: auto;
+    text-align: justify;
+}
+.block3Container h1{
+    font-size: 4rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.block3Container p{
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.block3Container  div{
+    width: 30%;
+    height: 20px;
+    background-color: rgb(0, 85, 0);
+    color: rgb(0, 85, 0);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.block3Container .learnMore{
+    margin-top: 1.5rem;
+    padding: 7px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: white;
+    color: rgb(0, 85, 0);
+    font-size: 1rem;
+    font-weight: 800;
+    border: 1px solid rgb(0, 85, 0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(133, 131, 131);
+}
+.block3Container .learnMore:hover{
+    background-color: rgb(0, 85, 0);
+    color: white;
+    cursor: pointer;
+}
+
+
+/* ******** FOOTER ********* */
+footer{
+    height: 75px;
+    background-color: rgb(0, 85, 0);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons i{
+    color: white;
+    background-color: transparent;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin: 5px;
+}
+.dot{
+    color: rgb(0, 85, 0);
+}
